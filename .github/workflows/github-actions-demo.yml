@@ -23,7 +23,7 @@ jobs:
       run: sh gradlew clean build
     - run: | 
             cd build/libs
-            ls -lrt
+            ls -lrt 
     - uses: actions/upload-artifact@v3
       with:
         name: myartifact
